@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="35" id="KGk-i7-Jjw" customClass="ShowTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="35"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.74999999999999978" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mvh-iH-Beo">
+                        <rect key="frame" x="2" y="0.0" width="26" height="39"/>
+                        <color key="backgroundColor" red="1" green="0.95921628875284604" blue="0.95103601682154781" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="26" id="rUq-N5-XsE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.74999999999999978" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZAX-KA-umS">
+                        <rect key="frame" x="28" y="0.0" width="292" height="34"/>
+                        <color key="backgroundColor" red="1" green="0.95921628875284604" blue="0.95103601682154781" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="mvh-iH-Beo" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="73C-A3-iTe"/>
+                    <constraint firstItem="mvh-iH-Beo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="2" id="ZDI-EZ-Yfq"/>
+                    <constraint firstItem="ZAX-KA-umS" firstAttribute="leading" secondItem="mvh-iH-Beo" secondAttribute="trailing" id="d87-sk-Fio"/>
+                    <constraint firstAttribute="bottom" secondItem="mvh-iH-Beo" secondAttribute="bottom" id="m9b-u7-a6d"/>
+                    <constraint firstAttribute="bottom" secondItem="ZAX-KA-umS" secondAttribute="bottom" id="n9C-Gt-xVS"/>
+                    <constraint firstAttribute="trailing" secondItem="ZAX-KA-umS" secondAttribute="trailing" id="nze-xd-1d5"/>
+                    <constraint firstItem="ZAX-KA-umS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="xZV-Ee-2oM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="1" green="0.9777103883211834" blue="0.95367407180955888" alpha="1" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="nameL" destination="ZAX-KA-umS" id="FnE-jN-Kcb"/>
+                <outlet property="numL" destination="mvh-iH-Beo" id="c2d-x8-xvx"/>
+            </connections>
+            <point key="canvasLocation" x="352" y="378.5"/>
+        </tableViewCell>
+    </objects>
+</document>

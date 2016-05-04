@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--听歌不着急-->
+        <scene sceneID="Hz1-W4-9AK">
+            <objects>
+                <viewController storyboardIdentifier="item" id="dAm-jp-w0p" customClass="ItemViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HwK-N8-BtF"/>
+                        <viewControllerLayoutGuide type="bottom" id="4yW-hd-vkh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yDv-QO-zNN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jdm-py-R9j">
+                                <rect key="frame" x="0.0" y="64" width="375" height="36"/>
+                                <subviews>
+                                    <label opaque="NO" tag="100" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="首页" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cvD-sS-eke">
+                                        <rect key="frame" x="67" y="3" width="62" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="C2o-D9-PT1"/>
+                                            <constraint firstAttribute="width" constant="62" id="Vs8-Yo-VKn"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="27"/>
+                                        <color key="textColor" red="1" green="0.41318876030000001" blue="0.4640877383" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="SW5-mh-Itz" appends="YES" id="QnG-0a-MAJ"/>
+                                        </connections>
+                                    </label>
+                                    <label opaque="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="榜单" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S0c-6t-Oab">
+                                        <rect key="frame" x="246" y="3" width="62" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <gestureRecognizers/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                        <color key="textColor" red="1" green="0.41318876030000001" blue="0.4640877383" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="JnQ-eh-0cF" appends="YES" id="Z5z-gx-qvU"/>
+                                        </connections>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.92552710317127784" blue="0.89471569188441868" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="cvD-sS-eke" firstAttribute="leading" secondItem="jdm-py-R9j" secondAttribute="leading" constant="67" id="APY-am-Y4Z"/>
+                                    <constraint firstAttribute="bottom" secondItem="S0c-6t-Oab" secondAttribute="bottom" constant="3" id="Djz-Hz-6we"/>
+                                    <constraint firstAttribute="bottom" secondItem="cvD-sS-eke" secondAttribute="bottom" constant="3" id="Dm0-9i-DkJ"/>
+                                    <constraint firstAttribute="height" constant="36" id="I9h-Xs-OMm"/>
+                                    <constraint firstItem="S0c-6t-Oab" firstAttribute="top" secondItem="jdm-py-R9j" secondAttribute="top" constant="3" id="IRo-Sq-7Ga"/>
+                                    <constraint firstItem="cvD-sS-eke" firstAttribute="height" secondItem="S0c-6t-Oab" secondAttribute="height" id="OEo-BQ-AYn"/>
+                                    <constraint firstItem="cvD-sS-eke" firstAttribute="top" secondItem="jdm-py-R9j" secondAttribute="top" constant="3" id="Uw4-3u-YU2"/>
+                                    <constraint firstItem="cvD-sS-eke" firstAttribute="centerY" secondItem="S0c-6t-Oab" secondAttribute="centerY" id="nNY-p3-TGK"/>
+                                    <constraint firstItem="cvD-sS-eke" firstAttribute="width" secondItem="S0c-6t-Oab" secondAttribute="width" id="u3Z-ZP-Um8"/>
+                                    <constraint firstAttribute="trailing" secondItem="S0c-6t-Oab" secondAttribute="trailing" constant="67" id="z1h-wN-5Vx"/>
+                                </constraints>
+                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U0k-Xu-CaB">
+                                <rect key="frame" x="0.0" y="100" width="375" height="495"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jdm-py-R9j" firstAttribute="leading" secondItem="yDv-QO-zNN" secondAttribute="leadingMargin" constant="-16" id="4dV-BK-qN0"/>
+                            <constraint firstItem="jdm-py-R9j" firstAttribute="top" secondItem="HwK-N8-BtF" secondAttribute="bottom" id="IF1-QF-Bca"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="U0k-Xu-CaB" secondAttribute="trailing" constant="-16" id="MgJ-Tr-i4t"/>
+                            <constraint firstItem="U0k-Xu-CaB" firstAttribute="top" secondItem="jdm-py-R9j" secondAttribute="bottom" id="SbA-v4-QzP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jdm-py-R9j" secondAttribute="trailing" constant="-16" id="ths-Rj-7l8"/>
+                            <constraint firstItem="U0k-Xu-CaB" firstAttribute="leading" secondItem="yDv-QO-zNN" secondAttribute="leadingMargin" constant="-16" id="uwV-F7-4Oe"/>
+                            <constraint firstItem="4yW-hd-vkh" firstAttribute="top" secondItem="U0k-Xu-CaB" secondAttribute="bottom" constant="72" id="xRU-ZW-PTi"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="听歌不着急" id="naz-HJ-cAe"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="scroView" destination="U0k-Xu-CaB" id="JlD-DZ-m93"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fKF-vc-o3b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="SW5-mh-Itz">
+                    <connections>
+                        <action selector="ShouyeAction:" destination="dAm-jp-w0p" id="47Y-mJ-yyB"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="JnQ-eh-0cF">
+                    <connections>
+                        <action selector="bangdanAction:" destination="dAm-jp-w0p" id="Jae-d8-mzE"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1120.3125" y="402.99295774647885"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="0Zd-xf-mVo">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cjh-gs-47d" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NJ1-Oa-6zP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="dAm-jp-w0p" kind="relationship" relationship="rootViewController" id="7nK-GY-ZpZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wYU-Af-K56" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="274.6875" y="402.99295774647885"/>
+        </scene>
+        <!--歌手列表-->
+        <scene sceneID="AkO-0q-VSC">
+            <objects>
+                <tableViewController storyboardIdentifier="singer" id="2bs-Ln-8oj" customClass="SingerTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="60" sectionHeaderHeight="22" sectionFooterHeight="22" id="szQ-vY-iMS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="60" id="FUf-lE-saE">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FUf-lE-saE" id="O9R-IO-wgM">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="2bs-Ln-8oj" id="oht-lM-f4J"/>
+                            <outlet property="delegate" destination="2bs-Ln-8oj" id="EC1-io-UTM"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="歌手列表" id="YT6-wg-2w7"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rIz-if-qjh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3640.5" y="402.75"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>126D9F7A-A5E6-4637-A8E9-CD80D52A9A73</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BarV</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>e21cc5d4-0437-4522-98a8-eda7450f6a7a++5551</key>
+		<string>http://www.svnchina.com/svn/class_29/BarV</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BarV.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>e21cc5d4-0437-4522-98a8-eda7450f6a7a++5551</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>e21cc5d4-0437-4522-98a8-eda7450f6a7a++5551</key>
+		<string>http://www.svnchina.com/svn/class_29</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://www.svnchina.com/svn/class_29/BarV/BarV.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>e21cc5d4-0437-4522-98a8-eda7450f6a7a++5551</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>e21cc5d4-0437-4522-98a8-eda7450f6a7a++5551</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BarV</string>
+		</dict>
+	</array>
+</dict>
+</plist>
